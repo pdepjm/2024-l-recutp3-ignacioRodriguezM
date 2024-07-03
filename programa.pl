@@ -1,4 +1,5 @@
-% Aquí va el código.
+% Ignacio Rodriguez M. RECUPERATORIO 1erTP
+
 empleado(maria).
 empleado(nora).
 empleado(felipe).

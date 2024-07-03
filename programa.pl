@@ -21,7 +21,7 @@ trabajaEnAdministracion(hugo).
 trabajaEnAdministracion(ana).
 
 % consultas :
-% trabajaEnConpras(Quien).    trabajaEnVentas(Quien).
+% trabajaEnCompras(Quien).    trabajaEnVentas(Quien).
 
 trabajanJuntos(UnaPersona, OtraPersona) :- trabajaEnVentas(UnaPersona), trabajaEnVentas(OtraPersona).
 trabajanJuntos(UnaPersona, OtraPersona) :- trabajaEnCompras(UnaPersona), trabajaEnCompras(OtraPersona).
